@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+body {
+    font-family: Roboto, serif;
+    background: #b1b1b1;
+    height: 820px;
+}
+
+header {
+    display: flex;
+    padding: 15px;
+    color: #c4dfdb;
+    background-color: #500b0b;
+    height: 100px;
+    font-size: 1.5em;
+}
+
+header h1{
+    font-family:'Times New Roman', Times;
+    font-size: 3rem;
+}
+
+.card{
+    background-color:#c4dfdb;
+}
+.card-title{
+    padding: 20px;
+    color: #53ad83;
+    font-weight: bold;
+}
+
+/*c4dfdb
+500b0b */
+
+header a{
+    color:#c4dfdb;
+    text-decoration: none;
+}
+footer {
+
+    margin-top: 2rem;
+    border-style: solid;
+    border-width: 5px;
+    border-top-color: #500b0b;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 0;
+    padding: 15px;
+}
+.nav-pills a{
+    color:#212529;
+    font-size: 1.1em;
+    font-weight: bold;
+}
+.NavList{
+    font-size: 1.2em;
+    padding-left: 34px;
+    padding-bottom: 10px;
+}
+section {       
+    margin-top: 10px;
+    border-top-style: solid;
+    border-width: 5px;
+    border-color: #500b0b;
+}
+.Navdrive{
+    padding: 10px;
+    padding-left: 35px;
+    border-width: 3px;
+}
+section p {
+    padding: 10px;
+    padding-top: 20px;
+    padding-left: 20px;
+    font-size: 1.5em;
+}
+.chet{ float: right; }
+.nechet{ float: left;}
+section img{
+    height: 10000000px;
+    height: 500px;
+}
+figcaption {
+    text-align: center; 
+    font-size: 0.5em;
+}
+
+figure {
+    margin-top: 15px;
+}
