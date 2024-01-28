@@ -124,3 +124,12 @@ header h1{
     white-space: pre-wrap;
 }
 }
+
+
+@media (max-width: 375px){
+.media-links ol{
+        white-space: nowrap;
+        flex-wrap: nowrap;
+        content: var(--bs-breadcrumb-divider, "&nbsp;");
+}
+}
