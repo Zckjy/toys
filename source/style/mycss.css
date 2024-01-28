@@ -112,3 +112,15 @@ header{
     height: 150px;
 }
 }
+
+@media (max-width: 650px){
+footer{
+    margin-top: 15rem;
+}
+header{
+    height: 200px;
+}
+header h1{
+    white-space: pre-wrap;
+}
+}
