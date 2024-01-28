@@ -91,13 +91,14 @@ figure {
 h2{
     margin-top: 60px;
 }
-
-
-@media (max-width: 905px){
-.caroulsel-1{
+.carousel-2{
     display: none;
 }
-.caroulsel-2{
+@media (max-width: 905px){
+.carousel-1{
+    display: none;
+}
+.carousel-2{
     display: block;
 }
 }
