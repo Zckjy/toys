@@ -93,11 +93,11 @@ h2{
 }
 
 
-@media (max-width: 900px){
-.carou1{
+@media (max-width: 905px){
+.caroulsel-1{
     display: none;
 }
-.caroul2{
+.caroulsel-2{
     display: block;
 }
 }
