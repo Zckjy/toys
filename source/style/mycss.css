@@ -93,21 +93,21 @@ h2{
 }
 
 
-@media (max-widht: 778px){
-.media-links{
-    display: flex;
-    justify-content: center;
-}
-header{
-    height: 150px;
-}
-}
-
 @media (max-width: 900px){
 .carou1{
     display: none;
 }
 .caroul2{
     display: block;
+}
+}
+
+@media (max-widht: 1000px){
+.media-links{
+    display: flex;
+    justify-content: center;
+}
+header{
+    height: 150px;
 }
 }
